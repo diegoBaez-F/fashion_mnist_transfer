@@ -87,17 +87,16 @@ python src/train_stage2_classifier.py
 
 Sea
 
-[
-f_\theta : \mathbb{R}^{784} \rightarrow \mathbb{R}^{64}
-]
+$$f_\theta : \mathbb{R}^{784} \rightarrow \mathbb{R}^{64}$$
+
 
 el encoder entrenado en etapa 1.
 
 La etapa 2 implementa:
 
-[
-h(x) = g_\phi(f_\theta(x))
-]
 
-donde ( f_\theta ) permanece congelado y solo se optimiza ( \phi ).
+$$h(x) = g_\phi(f_\theta(x))$$
+
+
+donde $$ f_\theta )$$ permanece congelado y solo se optimiza $$ \phi )$$.
 
