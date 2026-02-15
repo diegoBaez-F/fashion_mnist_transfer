@@ -98,5 +98,5 @@ La etapa 2 implementa:
 $$h(x) = g_\phi(f_\theta(x))$$
 
 
-donde $$ f_\theta )$$ permanece congelado y solo se optimiza $$ \phi )$$.
+donde $f_\theta$ permanece congelado y solo se optimiza $\phi$.
 
