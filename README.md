@@ -33,7 +33,7 @@ Conv2D(32, stride=2)
 Conv2D(64, stride=2)
 Flatten
 Dense(128)
-Latente: ( z \in \mathbb{R}^{64} )
+Latente: $z \in \mathbb{R}^{64}$
 
 ### Decoder
 
@@ -51,7 +51,7 @@ Dense(10, softmax)
 
 ---
 
-## Flujo de Ramas (MLOps básica)
+## Flujo de Ramas
 
 master
 etapa1 – entrenamiento del autoencoder
